@@ -1,0 +1,30 @@
+*{
+    background-color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif   
+}
+
+body{
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color:#000000;
+    color: aquamarine;
+}
+
+img {
+    display: block; 
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+#saulo {
+    border-radius: 50%;
+    border: black 15px currentColor;
+    
+}
+
+li {
+    list-style-type:square;
+}
