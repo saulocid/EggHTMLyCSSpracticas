@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Registra un usuario</h1>
     <br>
     <form action="/registro">
-        
+        <label for="name">Nombre de usuario</label><br>
+        <input type="text" name="name" required><br>
+        <label for="pass">Contraseña del usuario</label><br>
+        <input type="password" name="pass" required><br>
+        <label for="edad"></label>Edad del usuario<br>
+        <input type="number" name="edad"><br>
+        <label for="fechnac"></label>Fecha de nacimiento<br>
+        <input type="date" name="fechnac" required><br>
+        <h3>Sexo del usuario</h3>
+        <input type="radio" id="fem" name="sexo" value="Femenino" required>
+        <label for="fem">Femenino</label><br>
+        <input type="radio" id="mas" name="sexo" value="Masculino" required>
+        <label for="mas">Masculino</label><br>
+        <input type="radio" id="otro" name="sexo" value="Prefiero no decir" required>
+        <label for="otro">Prefiero no decir</label><br>
+        <label>País nacimiento del usuario</label> <br>
+        <select name="pais" required>
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+            <option>México</option>
+            <option>Uruguay</option>
+            <option>Colombia</option>
+            <option>Venezuela</option>
+        </select><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
     </form>
 </body>
+
 </html>

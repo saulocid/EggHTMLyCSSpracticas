@@ -1,0 +1,64 @@
+#titulo {
+    color: rgb(0, 143, 107);
+}
+
+strong {
+    color: red;
+}
+
+.destacado {
+    color: gold;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+body p a {
+    color: red;
+}
+
+body p a em {
+    color: blue
+}
+
+.especial {
+    color: purple;
+}
+
+td, th {
+    border: black 1px solid;
+    margin: 0;
+}
+
+th.especial{
+    color: gold;
+}
+
+tfoot th{
+    color: red;
+}
+
+tbody td{
+    color: green;
+}
+
+tbody th{
+    color: red;
+} 
+
+tbody tr td strong{
+    color: gold;
+}
+
+#adicional p {
+    color: rgb(161, 161, 1);
+}
+
+#especial{
+    color: rgb(170, 100, 236);
+}
+
+#adicional p a{
+    color: green;
+}
